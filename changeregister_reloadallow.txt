@@ -1,0 +1,10 @@
+
+!
+snmp-server system-shutdown
+
+
+config 0x2142
+
+!
+
+end
