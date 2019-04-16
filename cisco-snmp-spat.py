@@ -47,7 +47,7 @@ def sendSNMP( l, c ):
 	s6=SNMP(community=c,PDU=SNMPset(varbindlist=[SNMPvarbind(oid=ASN1_OID("1.3.6.1.4.1.9.9.96.1.1.1.1.3.744"),value=1)])) 
 	s7=SNMP(community=c,PDU=SNMPset(varbindlist=[SNMPvarbind(oid=ASN1_OID("1.3.6.1.4.1.9.9.96.1.1.1.1.4.744"),value=4)]))
 	s8=SNMP(community=c,PDU=SNMPset(varbindlist=[SNMPvarbind(oid=ASN1_OID("1.3.6.1.4.1.9.9.96.1.1.1.1.5.744"),value=ASN1_IPADDRESS(tftpserver))]))
-	s9=SNMP(community=c,PDU=SNMPset(varbindlist=[SNMPvarbind(oid=ASN1_OID("1.3.6.1.4.1.9.9.96.1.1.1.1.6.744"),value="changeRegister.txt")]))
+	s9=SNMP(community=c,PDU=SNMPset(varbindlist=[SNMPvarbind(oid=ASN1_OID("1.3.6.1.4.1.9.9.96.1.1.1.1.6.744"),value="changeregister_reloadallow.txt")]))
 	s10=SNMP(community=c,PDU=SNMPset(varbindlist=[SNMPvarbind(oid=ASN1_OID("1.3.6.1.4.1.9.9.96.1.1.1.1.14.744"),value=1)])) 
 	s11=SNMP(community=c,PDU=SNMPset(varbindlist=[SNMPvarbind(oid=ASN1_OID("1.3.6.1.4.1.9.2.1.54.0"),value=0)])) 
 	s12=SNMP(community=c,PDU=SNMPset(varbindlist=[SNMPvarbind(oid=ASN1_OID("1.3.6.1.4.1.9.2.9.9.0"),value=2)]))
