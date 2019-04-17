@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #    Cisco SNMP Spat v0.1
-#    Released as open source tool ,Modified script of Darren McDonald tool Cisco-SNMP-Slap
+#    Released as open source tool ,Modified script of Darren McDonald tool Cisco-SNMP-Slap(https://github.com/nccgroup/Cisco-SNMP-Slap/blob/master/README.md)
 #	 by Muhammad Sarmad Shafiq (twiter:@digitalsurgn).
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
